@@ -4,6 +4,7 @@ node_modules
 dist
 .build
 build
+build-dev
 .cache
 cache
 build-dev

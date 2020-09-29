@@ -4,8 +4,8 @@
   "main": "src/index.tsx",
   "license": "MIT",
   "scripts": {
-    "start": "parcel -p 3000 src/index.html",
-    "build": "parcel build src/index.html"
+    "start": "parcel -p 3000 src/index.html -d build-dev",
+    "build": "parcel build src/index.html -d build"
   },
   "dependencies": {
     "@hookform/resolvers": "^0.1.1",
