@@ -4,7 +4,7 @@
   "main": "src/index.tsx",
   "license": "MIT",
   "scripts": {
-    "start": "parcel -p 3000 src/index.html -d build-dev",
+    "start": "parcel -p 1997 src/index.html -d build-dev --no-autoinstall",
     "build": "parcel build src/index.html -d build"
   },
   "dependencies": {
