@@ -8,3 +8,4 @@ build-dev
 .cache
 cache
 build-dev
+.env

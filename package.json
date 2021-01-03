@@ -4,7 +4,7 @@
   "main": "src/index.tsx",
   "license": "MIT",
   "scripts": {
-    "start": "parcel -p 3000 src/index.html -d build-dev",
+    "dev": "parcel -p 1234 src/index.html -d build-dev --no-autoinstall",
     "build": "parcel build src/index.html -d build",
     "test": "test"
   },
@@ -14,6 +14,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-hook-form": "^6.8.6",
+    "react-jwt": "^1.0.8",
     "react-redux": "^7.2.1",
     "redux": "^4.0.5",
     "yup": "^0.29.3"
