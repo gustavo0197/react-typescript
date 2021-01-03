@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel -p 3000 src/index.html -d build-dev",
-    "build": "parcel build src/index.html -d build"
+    "build": "parcel build src/index.html -d build",
+    "test": "test"
   },
   "dependencies": {
     "@hookform/resolvers": "^0.1.1",
@@ -18,10 +19,12 @@
     "yup": "^0.29.3"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.0.4",
     "@types/reach__router": "^1.3.6",
-    "@types/react-redux": "^7.1.9",
     "@types/react": "^16.9.49",
     "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
     "@types/yup": "^0.29.7",
     "node-sass": "^4.14.1",
     "parcel-bundler": "^1.12.4",
