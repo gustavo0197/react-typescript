@@ -11,6 +11,7 @@ export const App = () => {
   return (
     <div style={{ textAlign: "center" }}>
       <button
+        data-testid="counter-minus-button"
         style={{
           width: "30px",
           height: "30px",
@@ -21,6 +22,7 @@ export const App = () => {
         -
       </button>
       <button
+        data-testid="counter-plus-button"
         style={{
           width: "30px",
           height: "30px",
@@ -30,7 +32,7 @@ export const App = () => {
       >
         +
       </button>
-      <p>{counter.counter}</p>
+      <p data-testid="counter-result">{counter.counter}</p>
     </div>
   );
 };
