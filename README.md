@@ -6,6 +6,8 @@
 
 `npm run build` or `yarn build` this command will bundle your application for production
 
+`npm test` or `yarn test` to run your tests
+
 ## Environment variables
 
 If you want to use environment variables you can create a `.env` file in the root of the project and add some variables
