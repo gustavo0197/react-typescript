@@ -5,6 +5,8 @@ dist
 .build
 build
 build-dev
+build-webpack
+.parcel-cache
 .cache
 cache
 build-dev
