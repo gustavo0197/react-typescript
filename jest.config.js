@@ -5,7 +5,7 @@ module.exports = {
     "src",
   ],
   moduleNameMapper: {
-    "\\.(css|scss|sass|less)": "identity-obj-proxy",
+    "\\.(css|scss|sass|less|png|jpg|svg|jpeg)": "identity-obj-proxy",
   },
   transform: {
     "^.+\\.tsx?$": "ts-jest",

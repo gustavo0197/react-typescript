@@ -5,6 +5,7 @@ dist
 .build
 build
 build-dev
+.parcel-cache
 .cache
 cache
 build-dev
