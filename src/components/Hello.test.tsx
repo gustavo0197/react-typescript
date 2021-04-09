@@ -10,7 +10,7 @@ describe("Hello component", () => {
   });
 
   test("Shoul have a title", () => {
-    const title = component.getByText("Hello from Parcel and React");
+    const title = component.getByText("Hello from Vite and React");
 
     expect(title.tagName).toBe("H2");
   });
