@@ -4,12 +4,10 @@
   "main": "src/index.tsx",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel -p 1234 src/index.html -d build-dev --no-autoinstall",
-    "build": "parcel build src/index.html -d build",
-    "test": "jest",
-    "dev:v": "vite",
-    "build:v": "tsc && vite build",
-    "serve:v": "vite preview"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "test": "jest"
   },
   "dependencies": {
     "@hookform/resolvers": "^0.1.1",
