@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { INCREMENT, DECREMENT } from "store/counter/counter.actions";
 
 export const App = () => {
-  const counter = useSelector((state: any) => state.counterStore);
+  const { counter } = useSelector((state: any) => state.counterStore);
   const dispatch = useDispatch();
   const increment = () => dispatch(INCREMENT());
   const decrement = () => dispatch(DECREMENT());
@@ -32,7 +32,7 @@ export const App = () => {
       >
         +
       </button>
-      <p data-testid="counter-result">{counter.counter}</p>
+      <p data-testid="counter-result">{counter}</p>
     </div>
   );
 };
